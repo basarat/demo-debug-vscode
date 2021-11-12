@@ -3,8 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const onClick = () => {
+    console.log('hello');
+  };
   return (
-    <div className="App">
+    <div className="App" onClick={onClick}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
